@@ -5,6 +5,7 @@ Zero installation web application that lets you Explore, Backup and Manage your 
   
   
 **ESPConnect** is a browser-based control center for ESP32- and ESP8266-class boards. It runs entirely inside a modern Chromium browser so you can inspect hardware details, manage SPIFFS files, back up flash, and deploy firmware without installing desktop software.  
+&nbsp;
 <img src="/Images/ESPConnect-github.png" height="200" >  
   
 By leveraging the Web Serial API in Chromium-based browsers, **ESPConnect** allows developers to perform critical tasks—such as flashing firmware, managing files (SPIFFS, LittleFS, FATFS), and inspecting NVS (Non-Volatile Storage)—directly from a browser window without installing heavy IDEs or toolchains. Its significance lies in its ability to simplify complex developer workflows, offering a transparent visual interface for partition mapping, hardware diagnostics, and real-time serial monitoring, making it an essential "Swiss Army Knife" for both rapid prototyping and device maintenance.  
