@@ -1,14 +1,13 @@
 # Getting-Statrted-with-ESPConnect-tool
 Getting Started with ESPConnect - Zero installation web application that lets you Explore, Backup and Manage your ESP32
   
-<img src="/Images/m2e-ESPConnect.jpg" height="200"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="/Images/ESPConnect-github.png" height="200" >
+<img src="/Images/m2e-ESPConnect.jpg" height="200">
 
   
-**ESPConnect** is a browser-based control center for ESP32- and ESP8266-class boards. It runs entirely inside a modern Chromium browser so you can inspect hardware details, manage SPIFFS files, back up flash, and deploy firmware without installing desktop software. 
+**ESPConnect** is a browser-based control center for ESP32- and ESP8266-class boards. It runs entirely inside a modern Chromium browser so you can inspect hardware details, manage SPIFFS files, back up flash, and deploy firmware without installing desktop software.  
+<img src="/Images/ESPConnect-github.png" height="200" >
   
-Building an OpenThread Border Router (OTBR) on an ESP32 requires a **two-chip architecture** because a standard ESP32 lacks the necessary IEEE 802.15.4 radio for Thread networking. The setup involves a Wi-Fi-capable ESP32 board, such as the ESP32-S3, to act as the host processor and a separate chip with an 802.15.4 radio, like the ESP32-H2, to function as the Radio Co-Processor (RCP). This dual-chip design allows the host ESP32 to handle the high-level border router tasks while the RCP manages the low-level Thread network communications. To simplify this, Espressif offers a dedicated development board, though a DIY setup with a standard ESP32 and an external RCP is also an option.  
-
-The software-based setup uses Espressif's IoT Development Framework (ESP-IDF) and their ESP Thread Border Router SDK to compile and flash the necessary firmware. Developers first build and flash the RCP firmware onto the 802.15.4 chip. Then, they configure and flash the main border router firmware onto the host ESP32, which enables network-bridging capabilities. The process is guided by the ESP-IDF command-line interface, allowing developers to configure network settings and manage the Thread network from the serial monitor once the device is running.  
+By leveraging the Web Serial API in Chromium-based browsers, **ESPConnect** allows developers to perform critical tasks—such as flashing firmware, managing files (SPIFFS, LittleFS, FATFS), and inspecting NVS (Non-Volatile Storage)—directly from a browser window without installing heavy IDEs or toolchains. Its significance lies in its ability to simplify complex developer workflows, offering a transparent visual interface for partition mapping, hardware diagnostics, and real-time serial monitoring, making it an essential "Swiss Army Knife" for both rapid prototyping and device maintenance.  
   
 ### Prerequisites 🧰
   
