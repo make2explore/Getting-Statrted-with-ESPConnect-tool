@@ -26,7 +26,7 @@ ESPConnect is Zero installation web application that lets you Explore, Backup an
 4. Use **Disconnect** whenever you want to free the USB port for another application.   
   
 ## Contributing
-ESPConnect is open source and contributions are welcome.
+ESPConnect is open source and contributions are welcomed by its developer.
 If you want to run ESPConnect locally, work on the codebase, or submit a pull request, please see:  
   
 ➡️ **[CONTRIBUTING.md](./CONTRIBUTING.md)**
