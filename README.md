@@ -25,6 +25,10 @@ ESPConnect is Zero installation web application that lets you Explore, Backup an
 3. After the handshake completes, the navigation drawer unlocks every tool: Device Info, Partitions, SPIFFS, Apps, Flash, Console, and Logs.  
 4. Use **Disconnect** whenever you want to free the USB port for another application.   
   
+## Contributing
+ESPConnect is open source and contributions are welcome.
+If you want to run ESPConnect locally, work on the codebase, or submit a pull request, please see:  
+  
 ➡️ **[CONTRIBUTING.md](./CONTRIBUTING.md)**
 That document contains development setup instructions, project conventions, and contribution guidelines.  
 
